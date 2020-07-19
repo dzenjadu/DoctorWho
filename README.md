@@ -1,3 +1,2 @@
 # DoctorWho
-yarn
-yarn start
+yarn -> yarn start
