@@ -1,7 +1,7 @@
 import React from 'react';
-import './MenuList.css';
-import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
+import './MenuList.css';
 
 const MenuList = ({categories}) => {
 

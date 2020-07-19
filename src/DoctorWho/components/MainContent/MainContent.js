@@ -1,10 +1,8 @@
-import React, {Component} from "react";
-
+import React, {Component} from 'react';
 import {connect} from 'react-redux';
-
 import {Switch, Route} from 'react-router-dom';
-import ItemList from "../ItemList/ItemList";
-import Page from "../Page/Page";
+import ItemList from '../ItemList/ItemList';
+import Page from '../Page/Page';
 
 const MainContent = ({categories}) => {
 

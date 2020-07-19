@@ -2,7 +2,7 @@ import {
     CATEGORIES_LOADED,
     DATA_LOADED,
     DETAILS_LOADED
-} from "../const/const";
+} from '../const/const';
 
 const initState = {
     data: {},

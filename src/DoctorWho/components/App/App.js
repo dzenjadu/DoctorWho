@@ -1,9 +1,9 @@
-import React from "react";
-import Header from "../Header/Header";
-import MainContent from "../MainContent/MainContent";
-import Footer from "../Footer/Footer";
+import React from 'react';
 import WithDoctorWhoService from '../hoc/WithDoctorWhoService';
-import "./App.css";
+import Header from '../Header/Header';
+import MainContent from '../MainContent/MainContent';
+import Footer from '../Footer/Footer';
+import './App.css';
 
 const App = () => {
     return(

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import {connect} from 'react-redux';
-import {useParams} from "react-router-dom";
-import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
-import ItemDetails from "../ItemDetails/ItemDetails";
-import ItemDescription from "../ItemDescription/ItemDescription";
+import {useParams} from 'react-router-dom';
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
+import ItemDetails from '../ItemDetails/ItemDetails';
+import ItemDescription from '../ItemDescription/ItemDescription';
 import './Page.css';
 
 const Page = ({data}) => {

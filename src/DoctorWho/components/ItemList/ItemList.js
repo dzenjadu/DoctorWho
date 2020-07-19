@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 import {connect} from 'react-redux';
-import {Link, useParams} from "react-router-dom";
+import {Link, useParams} from 'react-router-dom';
 import './ItemList.css';
 
 const ItemList = ({data, category, categories}) => {

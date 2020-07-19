@@ -1,7 +1,7 @@
 import React from "react";
 import {connect} from 'react-redux';
-import DoctorWhoService from "../../service/DoctorWhoService";
-import {categoriesLoaded, dataLoaded, detailsLoaded} from "../../actions";
+import DoctorWhoService from '../../service/DoctorWhoService';
+import {categoriesLoaded, dataLoaded, detailsLoaded} from '../../actions';
 
 const WithDoctorWhoService = ({categoriesLoaded, dataLoaded, detailsLoaded, children}) => {
     const doctorWhoService = new DoctorWhoService();

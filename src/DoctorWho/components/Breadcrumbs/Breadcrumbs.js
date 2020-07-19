@@ -1,6 +1,6 @@
-import React from "react";
-import {useParams} from "react-router-dom";
-import {connect} from "react-redux";
+import React from 'react';
+import {connect} from 'react-redux';
+import {useParams} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import './Breadcrumbs.css'
 
