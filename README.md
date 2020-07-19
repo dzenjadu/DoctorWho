@@ -1,2 +1,3 @@
 # DoctorWho
 yarn
+yarn start
