@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import DoctorWhoApp from './DoctorWho';
 
 ReactDOM.render(
-    <App />,
+    <DoctorWhoApp />,
     document.getElementById('root')
 );

@@ -1,8 +1,4 @@
-import {
-    CATEGORIES_LOADED,
-    DATA_LOADED,
-    DETAILS_LOADED
-} from '../const/const';
+import * as actions from '../const/const';
 
 const initState = {
     data: {},
@@ -12,11 +8,11 @@ const initState = {
 
 const reducer = (state = initState, action) => {
     switch (action.type) {
-        case DATA_LOADED:
+        case actions.DATA_LOADED:
             return {...state, data: action.payload}
-        case CATEGORIES_LOADED:
+        case actions.CATEGORIES_LOADED:
             return {...state, categories: action.payload}
-        case DETAILS_LOADED:
+        case actions.DETAILS_LOADED:
             return {...state, details: action.payload}
         default:
             return state

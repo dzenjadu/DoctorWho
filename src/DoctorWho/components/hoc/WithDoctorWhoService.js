@@ -9,12 +9,15 @@ const WithDoctorWhoService = ({categoriesLoaded, dataLoaded, detailsLoaded, chil
     categoriesLoaded(doctorWhoService.getCategories())
     detailsLoaded(doctorWhoService.getDetails())
 
-    doctorWhoService.getData().then((data) => {
-        dataLoaded(data)
-    })
+    doctorWhoService
+        .getData()
+        .then((data) => {
+            dataLoaded(data)
+        })
+        .catch((error) => console.log(error))
 
     return(
-        <div>{children}</div>
+        <>{children}</>
     )
 }
 

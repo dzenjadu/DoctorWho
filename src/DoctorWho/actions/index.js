@@ -1,26 +1,22 @@
-import {
-    CATEGORIES_LOADED,
-    DATA_LOADED,
-    DETAILS_LOADED
-} from "../const/const";
+import * as actions from "../const/const";
 
 export const dataLoaded = (newData) => {
     return {
-        type: DATA_LOADED,
+        type: actions.DATA_LOADED,
         payload: newData
     }
 }
 
 export const categoriesLoaded = (newCategories) => {
     return {
-        type: CATEGORIES_LOADED,
+        type: actions.CATEGORIES_LOADED,
         payload: newCategories
     }
 }
 
 export const detailsLoaded = (newDetails) => {
     return {
-        type: DETAILS_LOADED,
+        type: actions.DETAILS_LOADED,
         payload: newDetails
     }
 }
