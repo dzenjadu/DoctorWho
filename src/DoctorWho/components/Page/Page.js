@@ -8,6 +8,11 @@ import './Page.css';
 
 const Page = ({data}) => {
     const {id, category} = useParams();
+
+    if (!Object.keys(data).length) {
+        return <div>Нет данных</div>
+    }
+
     const [item] = data[category].filter((category) => {
         return category.id === Number(id);
     });

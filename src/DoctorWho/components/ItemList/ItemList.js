@@ -8,7 +8,7 @@ const ItemList = ({data, category, categories}) => {
     const categoryName = routeParams.category || category;
     const categoryTitle = categories[categoryName];
 
-    if (Object.keys(data).length === 0) {
+    if (!Object.keys(data).length) {
         return <div>Нет данных</div>
     }
 
